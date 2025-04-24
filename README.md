@@ -55,11 +55,13 @@ Form fields:
 Download a file:
 
 GET /{name}/{version}/{filename}
-- filename can only be package.rep or meta.json.
+- Only "meta.json" or "package.json" can be written as a filename to get the file itself.
 
 📁 Storage Structure
 
 When using file-system, packages are stored under /app/local-storage/{name}/{version}.
+
+When using object-storage, packages are stored under minio server's bucket named 'packages'.
 
 
 
