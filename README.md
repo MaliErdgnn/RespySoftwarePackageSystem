@@ -41,7 +41,7 @@ docker start MehmetAliErdogan-homework
 To remove and re-run with changes:
 
 docker rm MehmetAliErdogan-homework
-# Then rerun with updated "docker run" command
+Then rerun with updated "docker run" command
 
 ℹ️ API Usage
 
